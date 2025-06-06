@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api Example</title>
+    <link rel="stylesheet" href="apiExample.css" />
+</head>
+
+<body>
+    <div class="con">
+        <header>
+            <ul>
+                <li>Simple Blog Manager</li>
+                <li id="home" onclick="homeFunction()" >Home</li>
+                <li id="cre" onclick="createPostFunction">Create post</li>
+            </ul>
+        </header>
+        
+        <div class="showPost">
+            <h3>** All Post</h3>
+            <div class="spost">
+                <div class="loader"></div>
+            </div>
+        </div>
+
+        <div class="createPost">
+            <h3>** create Post</h3>
+
+            <form id="createPostForm">
+                <p>Title</p>
+                <input type="text" placeholder="Post Title" name="title">
+                <p>Body</p>
+                <textarea placeholder="Body of the post" name="body"></textarea>
+                <br/>
+
+                <button type="submit" class="btt1">Publish post</button>
+            </form>
+        </div>
+
+        <div class="editPost">
+            <h3>** Edit Post</h3>
+
+            <form id="edit">
+                <p>Title</p>
+                <input type="text" placeholder="Post Title" name="title" class="t1">
+                <p>Body</p>
+                <textarea placeholder="Body of the post" name="body" class="b1"></textarea>
+                <br/>
+
+                <button type="submit" id="eb1">submit Change</button>
+            </form>
+        </div>
+
+        <div class="comment">
+            <div class="commentValue"></div>
+
+            <div class="addComment">
+                <p> + Add a comment</p>
+                <form class="createCommentt">
+                    <p>Name</p>
+                    <input type="text" placeholder="Name" name="Name">
+
+                    <p>Email</p>
+                    <input type="email" placeholder="Email" name="Email">
+
+                    <p>Comment</p>
+                    <textarea placeholder="comment" name="Comment"></textarea><br/>
+                    <button type="submit" class="postCommentButt" >Post Comment</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="apiExample.js"></script>
+</body>
+
+</html>

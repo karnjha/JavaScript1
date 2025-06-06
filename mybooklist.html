@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My BookList</title>
+  <link rel="stylesheet" href="mybooklist.css" />
+</head>
+<body>
+  <div class="con">
+    <h1>MyBookList</h1>
+
+    <form id="book-form">
+      <label for="title">Title<span>*</span> :</label>
+      <input type="text" required  id="title" name="title"><br><br>
+
+      
+      <label  for="author">Author<span>*</span> :</label>
+      <input type="text" required  id="author" name="author"><br><br>
+
+      <label for="isbn">ISBN#:</label>
+      <input type="text" id="isbn" name="isbn"><br><br>
+
+      <button type="submit" class="butt">Add Book</button>
+    </form>
+
+    <table border="1" width="100%">
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Author</th>
+          <th>ISBN#</th>
+          <th>Action</th>
+          <th>Edit</th>
+        </tr>
+      </thead>
+      <tbody id="book-list">
+      </tbody>
+    </table>
+  </div>
+
+  <script src="mybooklist.js"></script>
+</body>
+</html>

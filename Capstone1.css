@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.f1 {
+    background-image: url("Screenshot 2025-05-15 164800.png");
+    background-size: cover;
+    background-position: center;
+    padding: 500px 20px;
+    text-align: center;
+}
+.t1{
+    color: pink;
+    font-size: 120px;
+    margin: 50px auto 0 auto;
+    font-family: "Sacramento", cursive;
+}
+.t2{
+    color: pink;
+    font-size: 80px;
+}

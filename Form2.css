@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+body {
+    height: 100vh;   
+    background-color: whitesmoke; 
+}
+
+.containe {
+    background-color: white;
+    max-width: 1024px;
+    height: 84%;
+    border-radius: 1rem;
+    margin: 1rem auto;
+    padding: 20px 20px 20px 20px;
+}
+
+.rod {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+
+.step-box {
+  width: 33.33%;
+  
+}
+
+.rod1 {
+  width: 100%;
+  height: 5px;
+  background-color: #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 0.5rem;
+}
+
+.fill {
+  width: 50%;
+  height: 100%;
+  background-color: blue;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.page2 .address span{
+    margin-bottom: 10px;
+}
+
+.page2 .address input{
+    height: 45px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.page2 .apartment span{
+    margin-bottom: 10px;
+}
+
+.page2 .apartment input{
+    height: 45px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.page2 .lbox {
+    display: flex;
+    gap: 1rem; 
+    margin-bottom: 20px;
+}
+.page2 .city, .state, .postal {
+    flex: 1; 
+}
+.page2 .city input,form .postal input,form .state select {
+    height: 45px;
+    width: 100%;
+}
+
+.page2 .butt {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.page2 .butt .submit input[type="submit"] {
+    padding: 12px 24px;
+    font-size: 1.6rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.page2 .butt .submit input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.page2 .butt .back input[type="submit"]{
+    padding: 12px 24px;
+    font-size: 1.6rem;
+   background-color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+

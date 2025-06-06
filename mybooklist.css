@@ -1,0 +1,44 @@
+* {
+  text-align: center;
+}
+body {
+    height: 100vh;   
+    background-color: whitesmoke; 
+}
+.con {
+    background-color: gray;
+    max-width: 1024px;
+    height: 90%;
+    border-radius: 1rem;
+    margin: 1rem auto;
+    padding: 20px 20px 20px 20px;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+.butt {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  width: 250px;
+}
+.edit {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  width: 250px;
+}
+span{
+  color: red;
+}
+

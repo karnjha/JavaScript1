@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookMaker</title>
+    <link rel="stylesheet" href="Bookmaker.css" />
+
+</head>
+
+<body onload="fetchBookmarks()">
+
+    <header>Bookmarker</header>
+    <hr />
+    <div class="container">
+        <h1>Bookmark Your favorite sites</h1>
+        <form class="form1">
+            <div class="sname">
+                <p>Site Name</p>
+                <input type="text" placeholder="" required>
+            </div>
+            <div class="surl">
+                <p>Site URL</p>
+                <input type="text" placeholder="" required>
+            </div>
+            <div class="submit">
+                <button type="submit">submit</button>
+            </div>
+        </form>
+
+        <div class="bookmarksResults"></div>
+    </div>
+
+
+
+    <script src="Bookmaker.js"></script>
+
+</body>
+
+</html>

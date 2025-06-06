@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Fill Up</title>
+    <link rel="stylesheet" href="Form1.css" />
+
+</head>
+
+<body>
+    <div class="containe1">
+        <div class="rod">
+            <div class="step-box">
+                <div class="rod1">
+                    <div id="r1" class="fill"></div>
+                </div>
+                <p>Step 1</p>
+                <p>Details</p>
+            </div>
+
+            <div class="step-box">
+                <div class="rod1">
+                    <div class="fill"></div>
+                </div>
+                <p>Step 2</p>
+                <p>Shipping</p>
+            </div>
+
+            <div class="step-box">
+                <div class="rod1">
+                    <div class="fill"></div>
+                </div>
+                <p>Step 3</p>
+                <p>Survey</p>
+            </div>
+        </div>
+
+    <form class="form">
+        <div class="c1">
+            <div class="form-group">
+                <label for="fname">First name*</label><br/>
+                <input type="text" id="fname" name="fname" placeholder="" required>
+            </div>
+
+            <div class="form-group">
+                <label for="lname">Last name*</label><br/>
+                <input type="text" id="lname" name="lname" placeholder="" required>
+            </div>
+        </div>
+    
+        <div class="email">
+            <label for="email">Email address*</label><br/>
+            <input type="email" id="email" name="email" placeholder="" required>
+        </div>
+
+        <div class="cbox">
+            <input type="checkbox" id="l1" name="newsletter" value="yes" required>
+            <label for="l1">Yes, I would like to sign up to receive the newsletter</label>
+        </div>
+
+        <div class="pnumber">
+            <label for="pnumber">Phone number (optional)</label><br/>
+            <input type="text" id="pnumber" name="pnumber">
+        </div>
+
+        <div class="submit">
+            <input type="submit" value="Continue">
+        </div>
+
+    </form>
+
+    </div>
+
+
+    <div class="containe2">
+
+        <div class="rod">
+            <div class="step-box">
+                <div class="rod1">
+                    <div class="fill" stylesheet="width: 100%"></div>
+                </div>
+                <p>Step 1</p>
+                <p>Details</p>
+            </div>
+
+            <div class="step-box">
+                <div class="rod1">
+                    <div class="fill"></div>
+                </div>
+                <p>Step 2</p>
+                <p>Shipping</p>
+            </div>
+
+            <div class="step-box">
+                <div class="rod1">
+                    <div class="fill"></div>
+                </div>
+                <p>Step 3</p>
+                <p>Survey</p>
+            </div>
+        </div>
+
+        <form class="form">
+            <div class="address">
+                <span>Address*</span><br/>
+                <input type="text" placeholder="">
+            </div>
+
+            <div class="apartment">
+                <span>Apartment or suite(optional)</span><br/>
+                <input type="text" placeholder="">
+            </div>
+
+            <div class="lbox">
+                <div class="city">
+                    <span>City*</span><br/>
+                    <input type="text" placeholder="">
+                </div>
+                <div class="state">
+                    <span>State*</span><br/>
+                    <select name="please" id="sel">
+                        <option value="pl">Please select</option>
+                        <option value="delhi">Delhi</option>
+                        <option value="up">UP</option>
+                        <option value="Ap">Ap</option>
+                    </select>
+                </div>
+                <div class="postal">
+                    <span>Postal Code*</span><br/>
+                    <input type="text" placeholder="">
+                </div>
+            </div>
+
+                <div class="butt">
+                    <div class="back">
+                        <input type="submit" value="Back">
+                    </div>
+                    <div class="submit">
+                        <input type="submit" value="Continue">
+                    </div>
+                </div>
+
+        </form>
+    </div>
+
+
+    <div class="containe3">
+
+        <div class="rod">
+            <div class="step-box">
+                <div class="rod1">
+                    <div class="fill"></div>
+                </div>
+                <p>Step 1</p>
+                <p>Details</p>
+            </div>
+
+            <div class="step-box">
+                <div class="rod1">
+                    <div class="fill"></div>
+                </div>
+                <p>Step 2</p>
+                <p>Shipping</p>
+            </div>
+
+            <div class="step-box">
+                <div class="rod1">
+                    <div class="fill"></div>
+                </div>
+                <p>Step 3</p>
+                <p>Survey</p>
+            </div>
+        </div>
+
+        <form class="form">
+
+            <div class="s1">
+                    <span>How Would you rate your level of satisfaction with the service you received? *</span><br/>
+                    <select name="s1-sel" class="sel">
+                        <option value="p1">Please select</option>
+                        <option value="H">Highly Satisfied</option>
+                        <option value="v">Very Satisfied</option>
+                        <option value="s">Satisfied</option>
+                        <option value="vd">Very dissatisfied</option>
+                        <option value="Hd">Highly dissatisfied</option>
+                    </select>
+            </div>
+
+                <div class="s2">
+                    <span>How Likely are you to recommend our products to friends or family?*</span><br/>
+                    <select name="s2-sel" class="sel">
+                        <option value="p1">Please select</option>
+                        <option value="hl">Highly Likely</option>
+                        <option value="H">Very Likely</option>
+                        <option value="v">Satisfied</option>
+                        <option value="s">Very UnLikely</option>
+                        <option value="Hd">Highly UnLikely</option>
+                    </select>
+                </div>
+
+                <div class="s3">
+                    <p>Which of the following products have you purchased in the past 6 months? please check all that apply.<p>
+                    <input type="checkbox" id="l1" name="newsletter" value="yes">
+                    <label for="l1"> Product A </label><br/>
+
+                    <input type="checkbox" id="l2" name="newsletter" value="yes">
+                    <label for="l1"> Product B </label><br/>
+
+                    <input type="checkbox" id="l3" name="newsletter" value="yes">
+                    <label for="l1"> Product C </label><br/>
+                </div>
+                <div class="s4">
+                    <p>Do you have any additional feedback or comments about our products?</p><br/>
+                    <input type="text" placeholder="">
+                </div>
+
+            <div class="butt">
+                    <div class="back">
+                        <input type="submit" value="Back">
+                    </div>
+                    <div class="submit">
+                        <input type="submit" value="Continue">
+                    </div>
+            </div>
+        </form>
+
+    </div>
+
+
+
+
+    <script src="Form1.js"></script>
+</body>
+
+</html>

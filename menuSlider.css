@@ -1,0 +1,183 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+i{
+    margin: 5px 20px 20px 20px;
+    color: white;
+
+}
+
+header{
+    width: 100%;
+    height: 160px;
+    background-color: darkblue;
+}
+.l1{
+    color: white;
+    text-align: center;
+    margin-bottom: 100px;
+}
+body{
+    background-color: white;
+}
+.container{
+    margin-left: 20%;
+    margin-top: 25px;
+    margin-right: 10%;
+}
+ul{
+    margin-left: 5%;
+    margin-top: 10px;
+}
+p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+button[type="submit"] {
+    padding: 10px 24px;
+    font-size: 0.8rem;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.signup{
+    background-color: whitesmoke;
+    width: 300px;
+    height: 355px;
+    justify-content: center;
+    display: none;
+    transition: right 0.2s ease;
+}
+
+
+.signupheading {
+    background-color: darkblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15%;
+    width: 100%;
+    color: white;
+   
+}
+.heading{
+    margin-left: 10px;
+}
+
+.crosssign {
+    cursor: pointer;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+span {
+    display: inline-block;
+    margin-bottom: 2px;
+}
+form{
+    margin: 10px 10px 10px 10px;
+}
+.line5{
+    margin: 10px 10px 10px 10px;
+}
+
+.form1 input {
+    display: block;
+    width: 90%;
+}
+
+.menubutton{
+    height: 600px;
+    width: 20%;
+    background-color: darkblue;
+    color: white;
+    /* margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 5px; */
+}
+
+.menubutton img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.signup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  z-index: 1000;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  transition: 0.3s ;
+}
+
+img{
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.home, .protfolio, .blog, .contact{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+
+}
+
+.menubutton {
+    position: fixed;
+    top: 0;
+    left: -20%;
+    width: 15%;
+    height: 100%;
+    background-color: darkblue;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: left 0.3s ease;
+    z-index: 1000;
+    display: block;
+}
+
+.menubutton.active {
+    left: 0;
+}
+
+.menubutton img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.menubutton .name div {
+    margin: 10px 0;
+    cursor: pointer;
+}
+.fa-bars {
+    font-size: 24px;
+    cursor: pointer;
+    transition: margin-left 0.3s ease;
+    z-index: 1100;
+    position: relative;
+}
+

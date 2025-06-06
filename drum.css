@@ -1,0 +1,18 @@
+*{
+    background-color: rgb(126, 116, 117);
+    text-align: center;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+
+button{
+    background-color: white;
+    font-size: 50px;
+    text-align: justify;
+}
